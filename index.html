@@ -137,11 +137,26 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          <form>
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input type="text" class="form-control" id="nome" placeholder="Insira seu nome completo">
+            </div>
+
+            <div class="form-group my-3">
+              <label for="email">Endereço de e-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="comentario">Deixe seu comentário</label>
+              <textarea id="comentario" class="form-control" cols="15" rows="5" placeholder="Insira aqui seu comentário"></textarea>
+            </div>
+          </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn botao-cor-especial">Enviar</button>
         </div>
       </div>
     </div>
