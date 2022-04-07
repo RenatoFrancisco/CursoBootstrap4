@@ -4,6 +4,10 @@
     height: 400px;
 }
 
+.card-largura {
+    width: 18rem;
+}
+
 .imagem-carrossel-dois {
     object-fit: cover;
     height: 400px;
@@ -24,4 +28,9 @@
 
 .borda-cor-especial {
     border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
 }
